@@ -1,0 +1,40 @@
+.hamburger-container {
+    width: 100%;
+    padding: 50px;
+}
+
+.hamburger {
+    width: 3.5rem;
+    height: 3.5rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black;
+    border-radius: 5px; */
+}
+
+.bar {
+    display: block;
+    position: absolute;
+    background-color: #000;
+    width: 80%;
+    height: 2px;
+    transition: .5s;
+}
+
+.bar:nth-child(1) {
+    margin-bottom: 50%;
+}
+
+.bar:nth-child(3) {
+    margin-top: 50%;
+}
+
+/* to do:
+- hamburger menu animation
+- full width hamburger dropdown
+*/
