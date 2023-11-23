@@ -5,7 +5,7 @@ import './Order.css'
 
 export default function Order() {
   return (
-    <>
+    <div className='container'>
     <form className='order'>
       <h2 className='order__title'>Request Transfer</h2>
       <label>
@@ -47,7 +47,7 @@ export default function Order() {
       <button className='order__submit'>What'sApp us</button>
     </form>
     <span className='landing__underline'></span>
-    </>
+    </div>
   )
 }
 

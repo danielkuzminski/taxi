@@ -9,19 +9,15 @@
     width: 3.5rem;
     height: 3.5rem;
     margin: 10px;
-    /* padding: 25px; */
 }
 
 .logo-text {
     text-transform: uppercase;
     margin-right: 2rem;
     -webkit-text-stroke: 1px #ff914a;
-    /* color: transparent; */
 }
 
 .logo-text small{
-    /* -webkit-text-stroke: 1px #ff914a; */
-    /* color: #ff914a; */
     font-size: 2rem;
     color: #ff914a;
 }

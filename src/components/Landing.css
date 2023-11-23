@@ -4,7 +4,8 @@
 
 .landing__img {
     width: 100%;
-    height: 10rem;
+    aspect-ratio: 16/9;
+    /* height: 10rem; */
     object-fit: cover;
     filter:grayscale(30%);
     opacity: .9;

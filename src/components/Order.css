@@ -1,7 +1,10 @@
+.container {
+    background-image: linear-gradient(#fff, #ddd, #fff);
+    width: 100%;
+}
 .order {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     width: 90%;
     margin: 1rem auto;
@@ -36,7 +39,7 @@
 }
 
 .order label input:focus {
-    /* border: 2px solid #ff914a; */
+    outline: none;
     box-shadow: 0 0 5px #ff914a;
 }
 
