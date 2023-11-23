@@ -50,3 +50,8 @@ export default function Order() {
     </>
   )
 }
+
+/*  to do: 
+    - collecting data from form
+    - create submit functionality integrated with whatsapp
+*/
