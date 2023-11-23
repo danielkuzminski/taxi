@@ -12,10 +12,10 @@
 }
 
 .landing__title {
-    /* padding: .5rem; */
-    margin: 0 1rem;
+    margin: 0px 1rem;
     text-align: center;
     color: #444;
+
 }
 
 .landing__text {
@@ -24,6 +24,7 @@
     font-style: italic;
     text-align: left;
     color: #777;
+    line-height: 1.6;
 }
 
 .landing__underline {

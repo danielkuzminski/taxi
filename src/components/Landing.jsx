@@ -1,18 +1,27 @@
 //styles
-import './Landing.css'
+import "./Landing.css"
 
 //assets
-import arrivals from '../assets/arrivals.jpg'
+import arrivals from "../assets/arrivals.jpg"
 
 export default function Landing() {
-  return (
-    <div className='landing'>
-      <img src={arrivals} alt="" className='landing__img' />
-      <h1 className='landing__title'>Welcome to AirporTaxi</h1>
-      <p className='landing__text'>
-        Your Gateway to Seamless Airport Transfers in Ireland!
-      </p>
-      <span className='landing__underline'></span>
-    </div>
-  )
+	return (
+		<div className='landing'>
+			<img src={arrivals} alt='airport arrivals and departure gates' className='landing__img' />
+			<h1 className='landing__title'>Welcome to AirporTaxi</h1>
+			<p className='landing__text'>
+				Your Gateway to Seamless Airport Transfers in Ireland!
+			</p>
+			<br />
+			<h2 className="landing__title">Elevate Your Arrival Experience</h2>
+			<p className="landing__text">
+				At AirpoTaxi, we go beyond transportation – we craft
+				experiences. Step into the heart of Ireland with our premium airport
+				taxi services. Your journey begins the moment you land, ensuring a warm
+				Irish welcome and a ride that reflects the charm of this beautiful
+				country.
+			</p>
+			<span className='landing__underline'></span>
+		</div>
+	)
 }
