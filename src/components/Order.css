@@ -1,55 +1,68 @@
 .container {
-    background-image: linear-gradient(#fff, #ddd, #fff);
-    width: 100%;
+	background-image: linear-gradient(#fff, #ddd, #fff);
+	width: 100%;
 }
 .order {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-    margin: 1rem auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 90%;
+	margin: 1rem auto;
 }
 
 .order__title {
-    color: #444;
-    font-weight: 200;
-    font-size: 1.9rem;
-    margin-bottom: .5rem;
-    position: relative;
-    text-decoration: underline #ff914a;
+	color: #444;
+	font-weight: 200;
+	font-size: 1.9rem;
+	margin-bottom: 0.5rem;
+	position: relative;
+	text-decoration: underline #ff914a;
 }
 
 .order label {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .order label span {
-    display: block;
-    text-transform: capitalize;
-    font-weight: 200;
-    margin-bottom: .3rem;
+	display: block;
+	text-transform: capitalize;
+	font-weight: 200;
+	margin-bottom: 0.3rem;
 }
 
 .order label input {
-    padding: 8px;
-    margin-bottom: 5px;
-    border: 1px solid #ff914a;
-    border-radius: 5px;
+	padding: 8px;
+	margin-bottom: 5px;
+	border: 1px solid #ff914a;
+	border-radius: 5px;
 }
 
 .order label input:focus {
-    outline: none;
-    box-shadow: 0 0 5px #ff914a;
+	outline: none;
+	box-shadow: 0 0 5px #ff914a;
 }
 
 .order__submit {
-    background-color: #25D366;
-    border: none;
-    border-radius: 5px;
-    width: 50%;
-    padding: 10px;
-    color: #fff;
-    font-weight: 700;
-    margin-top: 20px;
+	background-color: #25d366;
+	border: none;
+	border-radius: 5px;
+	width: 50%;
+	padding: 10px;
+	color: #fff;
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 480px) {
+	.container {
+		width: 50%;
+	}
+	.order {
+		width: 80%;
+	}
+
+	.order__submit {
+		cursor: pointer;
+	}
 }

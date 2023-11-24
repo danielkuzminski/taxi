@@ -13,8 +13,10 @@ function App() {
   return (
     <div className="App">
       <Hamburger />
-      <Landing />
-      <Order />
+      <div className='mobile'>
+        <Landing />
+        <Order />
+      </div>
       <Benefits />
       <Footer />
     </div>

@@ -1,13 +1,11 @@
 //styles
 import "./Landing.css"
 
-//assets
-import arrivals from "../assets/arrivals.jpg"
 
 export default function Landing() {
 	return (
 		<div className='landing'>
-			<img src={arrivals} alt='airport arrivals and departure gates' className='landing__img' />
+			{/* <img src={arrivals} alt='airport arrivals and departure gates' className='landing__img' /> */}
 			<h1 className='landing__title'>Welcome to AirporTaxi</h1>
 			<p className='landing__text'>
 				Your Gateway to Seamless Airport Transfers in Ireland!

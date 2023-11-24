@@ -2,21 +2,19 @@
     width: 100%;
 }
 
-.landing__img {
+/* .landing__img {
     width: 100%;
     aspect-ratio: 16/9;
-    /* height: 10rem; */
     object-fit: cover;
     filter:grayscale(30%);
     opacity: .9;
     margin-bottom: 10px;
-}
+} */
 
 .landing__title {
     margin: 0px 1rem;
     text-align: center;
     color: #444;
-
 }
 
 .landing__text {
@@ -34,4 +32,15 @@
     display: block;
     height: 1px;
     background-color: #ff914a;
+}
+
+@media screen and (min-width: 480px) {
+    .landing {
+        width: 50%;
+    }
+
+    .landing__text {
+        width: 80%;
+        text-align: center;
+    }
 }
