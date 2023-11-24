@@ -34,7 +34,7 @@
     background-color: #ff914a;
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 480px) {
     .landing {
         width: 50%;
     }

@@ -54,7 +54,7 @@
 	margin-top: 20px;
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 480px) {
 	.container {
 		width: 50%;
 	}
