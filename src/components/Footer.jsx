@@ -11,14 +11,18 @@ export default function Footer() {
 				<p className='contact__details'>contact details: </p>
 				<div>
 					<i class='fa-solid fa-phone'></i>
-					<span>+353123456789</span>
+					<a className='phone' href='tel:00353877759009'>
+						Call us
+					</a>
 				</div>
 				<div>
 					<i class='fa-solid fa-envelope'></i>
-					<span>airportaxi@airportaxi.ie</span>
+					<a className='phone' href='mailto:airpotaxi@airportaxi.ie'>
+						Email us
+					</a>
 				</div>
 			</div>
-			<img src={logo} alt='' className='logo' />
+			<img src={logo} alt='logo' className='logo' />
 		</div>
 	)
 }

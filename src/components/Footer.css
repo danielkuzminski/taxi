@@ -19,3 +19,8 @@
     font-weight: 700;
     text-decoration: underline #ff914a;
 }
+
+.phone {
+    text-decoration: none;
+    color: #444;
+}
