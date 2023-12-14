@@ -44,14 +44,15 @@
 }
 
 .order__submit {
-	background-color: #25d366;
+	background-color: transparent;
 	border: none;
-	border-radius: 5px;
+	width: auto;
+	margin-top: 10px;
 	width: 50%;
-	padding: 10px;
-	color: #fff;
-	font-weight: 700;
-	margin-top: 20px;
+}
+
+.order__submit img {
+	width: 100%;	
 }
 
 @media screen and (min-width: 480px) {
